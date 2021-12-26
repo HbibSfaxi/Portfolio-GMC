@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  margin-bottom: 35px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+h3 {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 70px;
+}
+
+.floatingNav {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-family: "Homemade Apple", cursive;
+  font-size: 35px !important;
+}
+
+.navbar a {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.navbar a:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar .active {
+  color: #d0c9a9 !important;
+  text-decoration: underline;
+}
+
+section {
+  height: 100vh;
+  padding-top: 12vh;
+}
+
+#header div .container {
+  height: 10em;
+  position: relative;
+}
+
+.jumbotron {
+  background-image: url(../images/wave.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header h1 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 150px;
+  color: #000;
+  text-align: right;
+  letter-spacing: 0.1em;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#header a {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  color: #000;
+}
+
+#about img {
+  width: 75%;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+#projects {
+  height: 130vh;
+  background-color: #d0c9a9;
+}
+
+#projects .row {
+  margin-top: 50px;
+}
+
+#projects .card {
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#career {
+  height: 70vh;
+  background-color: #ffffff;
+}
+
+#career .card {
+  margin-top: 20px;
+  border: 0;
+}
+
+#career .card .card-header {
+  box-shadow: -5px 5px rgb(0, 0, 0), -10px 10px rgb(71, 71, 71),
+    -15px 15px rgb(184, 184, 184);
+}
+
+.box {
+  width: 227px;
+  height: 227px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.box p {
+  color: #461e52;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 30% 30px 0 30px;
+  text-align: center;
+  transition: none;
+  line-height: 1;
+  font-family: "Open Sans Condensed", Arial, Verdana, sans-serif;
+}
+
+.box:hover {
+  background-color: #461e52;
+}
+
+.box:hover p {
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact {
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #d0c9a9;
+}
+
+#contact form .row {
+  padding-top: 20px;
+}
+
+#contact form label {
+  font-size: 20px;
+}
+
+#contact li {
+  text-decoration: none;
+  display: block;
+}
+
+#contact img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+#contact li:nth-child(1) .btn:hover {
+  background-color: rgb(153, 197, 151);
+}
+
+#footer {
+  color: #fcf7f8;
+  background-color: #373737;
+}
